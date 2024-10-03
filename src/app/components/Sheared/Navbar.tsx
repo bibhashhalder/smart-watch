@@ -4,7 +4,8 @@ import React from 'react';
 import image from '@/assets/amazon.png'
 const Navbar = () => {
     return (
-        <div className='flex justify-between items-center mt-4 w-3/4 mx-auto'>
+       <div className='bg-zinc-200 py-4'>
+         <div className='flex justify-between items-center mt-4 w-3/4 mx-auto '>
             <div>
                 <Image src={image} width={50} height={50} alt='logo'/>
             </div>
@@ -16,6 +17,7 @@ const Navbar = () => {
             <Link href='/login'>Sign In</Link>
            </div>
         </div>
+       </div>
     );
 };
 
