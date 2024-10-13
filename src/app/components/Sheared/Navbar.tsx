@@ -11,7 +11,7 @@ const Navbar = () => {
             </div>
            <div className='flex justify-between w-5/12'>
            <Link href='/'>Home</Link>
-            <Link href='/about'>About</Link>
+            <Link href='/blogs'>Blogs</Link>
             <Link href='/contact'>Contact Us</Link>
             <Link href='/register'>Sign Up</Link>
             <Link href='/login'>Sign In</Link>
