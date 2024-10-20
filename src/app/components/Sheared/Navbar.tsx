@@ -16,6 +16,9 @@ const Navbar = () => {
             <Link href='/register'>Sign Up</Link>
             <Link href='/login'>Sign In</Link>
            </div>
+           <div className='bg-orange-500 p-2 rounded-lg'>
+            <Link href='/blogs/create'>Post Blog</Link>
+           </div>
         </div>
        </div>
     );
